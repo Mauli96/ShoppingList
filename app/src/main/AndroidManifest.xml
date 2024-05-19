@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".ShoppingListApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingList"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB09UgPLAWSW-y6onWp3EKk39c8vDm_Zr4"
+            />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
